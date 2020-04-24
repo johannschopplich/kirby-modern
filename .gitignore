@@ -1,0 +1,18 @@
+.DS_Store
+# .env
+
+# Kirby-related
+.lock
+/public/media/*
+!/public/media/index.html
+/storage/accounts/*
+!/storage/accounts/index.html
+/storage/cache/*
+!/storage/cache/index.html
+/storage/sessions/*
+!/storage/sessions/index.html
+/site/config/.license
+
+/site/config/.retour
+/site/config/redirects.yml
+/site/logs/
