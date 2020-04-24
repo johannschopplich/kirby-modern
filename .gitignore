@@ -1,7 +1,7 @@
 .DS_Store
 # .env
 
-# Kirby-related
+# Kirby
 .lock
 /public/media/*
 !/public/media/index.html
@@ -13,6 +13,10 @@
 !/storage/sessions/index.html
 /site/config/.license
 
+# Retour plugin
 /site/config/.retour
 /site/config/redirects.yml
 /site/logs/
+
+# Static site generation
+/static/
