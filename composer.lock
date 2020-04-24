@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b1f09a39168c729e9b7d238d8b60529",
+    "content-hash": "9c8b8b60838334c94614ae1b641016c9",
     "packages": [
         {
             "name": "beebmx/kirby-env",
@@ -525,6 +525,37 @@
                 "palette"
             ],
             "time": "2016-12-15T09:30:02+00:00"
+        },
+        {
+            "name": "lukaskleinschmidt/kirby-resolve",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lukaskleinschmidt/kirby-resolve.git",
+                "reference": "4c87912678774a2c2b3b945c65fe7cdc116d4648"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lukaskleinschmidt/kirby-resolve/zipball/4c87912678774a2c2b3b945c65fe7cdc116d4648",
+                "reference": "4c87912678774a2c2b3b945c65fe7cdc116d4648",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lukas Kleinschmidt",
+                    "email": "public@kleinschmidt.at"
+                }
+            ],
+            "description": "Kirby Resolve",
+            "time": "2020-04-23T08:02:53+00:00"
         },
         {
             "name": "michelf/php-smartypants",
