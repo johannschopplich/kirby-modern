@@ -32,9 +32,3 @@ columns:
           - about
           - home
           - default
-
-      generator:
-        type: fields
-        fields:
-          staticSiteGenerator:
-            label: Generate a static version of the site

@@ -1,0 +1,31 @@
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+
+$kirby = new Kirby([
+    'roots' => [
+        'index'    => __DIR__ . '/public',
+        'base'     => __DIR__,
+        'site'     => __DIR__ . '/site',
+        'storage'  => $storage = __DIR__ . '/storage',
+        'content'  => $storage . '/content',
+        'accounts' => $storage . '/accounts',
+        'cache'    => $storage . '/cache',
+        'sessions' => $storage . '/sessions',
+    ]
+]);
+
+$outputFolder = __DIR__ . '/static';
+
+// Render and save html files
+$staticSiteGenerator = new D4L\StaticSiteGenerator($kirby, $pathsToCopy = null, $pages = null);
+$fileList = $staticSiteGenerator->generate($outputFolder, $baseUrl = '/', $preserve = ['sitemap.xml', 'sitemap.xsl']);
+
+// Generate sitemap
+$mapper = option('cre8ivclick.sitemapper.customMap');
+$sitemapXml = snippet('sitemapper/xml', ['map' => $mapper(site())], true);
+$sitemapXsl = snippet('sitemapper/xsl', [], true);
+F::write($outputFolder . '/sitemap.xml', $sitemapXml);
+F::write($outputFolder . '/sitemap.xsl', $sitemapXsl);
+
+echo 'Your static site has been generated in ' . $outputFolder;

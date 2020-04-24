@@ -31,17 +31,6 @@ return [
         ]
     ],
 
-    'd4l' => [
-        'static_site_generator' => [
-          'endpoint' => 'generate-static-site',
-          'output_folder' => '../static',
-          'preserve' => [], # anything starting with `.` is always preserved
-          'base_url' => '/',
-          'skip_media' => false,
-          'skip_templates' => []
-        ]
-    ],
-
     'cre8ivclick.sitemapper.title' => 'Sitemap'
 
 ];

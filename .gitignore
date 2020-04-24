@@ -19,4 +19,5 @@
 /site/logs/
 
 # Static site generation
-/static/
+/static/*
+!/static/.kirbystatic
