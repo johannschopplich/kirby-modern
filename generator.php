@@ -19,7 +19,7 @@ $outputFolder = __DIR__ . '/static';
 
 // Render and save html files
 $staticSiteGenerator = new D4L\StaticSiteGenerator($kirby, $pathsToCopy = null, $pages = null);
-$fileList = $staticSiteGenerator->generate($outputFolder, $baseUrl = '/', $preserve = ['sitemap.xml', 'sitemap.xsl']);
+$fileList = $staticSiteGenerator->generate($outputFolder, $baseUrl = '/', $preserve = []);
 
 // Generate sitemap
 $mapper = option('cre8ivclick.sitemapper.customMap');
