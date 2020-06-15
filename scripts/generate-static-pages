@@ -1,14 +1,18 @@
 #!/usr/bin/env php
 <?php
 
-require __DIR__ . '/vendor/autoload.php';
+require dirname(__DIR__) . '/vendor/autoload.php';
 
+use Kirby\Cms\App as Kirby;
+use Kirby\Toolkit\F;
+
+$base = dirname(__DIR__);
 $kirby = new Kirby([
     'roots' => [
-        'index'    => __DIR__ . '/public',
-        'base'     => __DIR__,
-        'site'     => __DIR__ . '/site',
-        'storage'  => $storage = __DIR__ . '/storage',
+        'index'    => $base . '/public',
+        'base'     => $base,
+        'site'     => $base . '/site',
+        'storage'  => $storage = $base . '/storage',
         'content'  => $storage . '/content',
         'accounts' => $storage . '/accounts',
         'cache'    => $storage . '/cache',
@@ -16,7 +20,7 @@ $kirby = new Kirby([
     ]
 ]);
 
-$outputFolder = __DIR__ . '/static';
+$outputFolder = $base . '/static';
 
 // Render and save html files
 $staticSiteGenerator = new D4L\StaticSiteGenerator($kirby, $pathsToCopy = null, $pages = null);
