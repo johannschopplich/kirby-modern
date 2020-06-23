@@ -9,7 +9,7 @@
  */
 
 $base = dirname(__DIR__, 2);
-(new \Beebmx\KirbyEnv($base))->load();
+\KirbyExtended\EnvAdapter::load($base);
 
 return [
 
