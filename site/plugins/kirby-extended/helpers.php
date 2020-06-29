@@ -1,8 +1,10 @@
 <?php
 
-use KirbyExtended\MetaTagsAdapter;
+use Kirby\Cms\Page;
 use KirbyExtended\Env;
 use KirbyExtended\HigherOrderTapProxy;
+use KirbyExtended\MetaTagsAdapter;
+use Spatie\SchemaOrg\Schema;
 
 if (!function_exists('env')) {
     /**
@@ -12,7 +14,7 @@ if (!function_exists('env')) {
      * @param mixed $default
      * @return mixed
      */
-    function env($key, $default = null)
+    function env(string $key, $default = null)
     {
         return Env::get($key, $default);
     }
@@ -28,7 +30,7 @@ if (!function_exists('tap')) {
      */
     function tap($value, ?callable $callback = null)
     {
-        if (is_null($callback)) {
+        if ($callback === null) {
             return new HigherOrderTapProxy($value);
         }
 
@@ -51,14 +53,27 @@ if (!function_exists('value')) {
     }
 }
 
+if (!function_exists('schema')) {
+    /**
+     * Fluent builder for Schema.org types and ld+json generator
+     *
+     * @param string $type
+     * @return mixed
+     */
+    function schema(string $type)
+    {
+        return Schema::{$type}();
+    }
+}
+
 if (!function_exists('metaTags')) {
     /**
-     * Generate meta tags for a given page
+     * Generate meta tags for a given Kirby page
      *
      * @param \Kirby\Cms\Page $page
      * @return \KirbyExtended\MetaTagsAdapter
      */
-    function metaTags(\Kirby\Cms\Page $page): MetaTagsAdapter
+    function metaTags(Page $page): MetaTagsAdapter
     {
         return MetaTagsAdapter::instance($page);
     }

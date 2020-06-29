@@ -14,13 +14,15 @@
   "authors": [
     {
       "name": "Johann Schopplich",
-      "email": "mail@johannschopplich.com"
+      "email": "pkg@johannschopplich.com",
+      "homepage": "https://johannschopplich.com"
     }
   ],
   "require": {
     "php": ">=7.4.0",
     "getkirby/composer-installer": "^1.1",
     "phpoption/phpoption": "^1.7",
+    "spatie/schema-org": "^2.14",
     "vlucas/phpdotenv": "^5.0"
   },
   "require-dev": {
