@@ -18,7 +18,13 @@ class ImageBlock extends Block
     public function image()
     {
         try {
-            return $this->kirby()->api()->parent($this->attrs()->guid()->value());
+            // for the guid used in 1.0.2 and earlier versions
+            // @deprecated 1.1.0
+            if ($this->attrs()->filename()->isEmpty() === true) {
+                return $this->kirby()->api()->parent($this->attrs()->guid()->value());
+            }
+
+            return $this->parent()->file($this->attrs()->filename()->value());
         } catch (Throwable $e) {
             return null;
         }
@@ -34,7 +40,7 @@ class ImageBlock extends Block
         $image = $this->image();
 
         $attrs = [
-            'image'   => $image ? $image->id() : $this->attrs()->src(),
+            'image'   => $image ? $image->filename() : $this->attrs()->src(),
             'alt'     => $this->attrs()->alt(),
             'link'    => $this->attrs()->link(),
             'class'   => $this->attrs()->css(),
@@ -50,9 +56,10 @@ class ImageBlock extends Block
 
         if ($image = $this->image()) {
             $data['attrs'] = array_merge($data['attrs'] ?? [], [
-                'guid'  => $image->panelUrl(true),
-                'ratio' => $image->ratio(),
-                'src'   => $image->resize(800)->url()
+                'filename' => $image->filename(),
+                'guid'     => $image->panelUrl(true),
+                'ratio'    => $image->ratio(),
+                'src'      => $image->resize(800)->url()
             ]);
 
             if ($toStorage === true) {

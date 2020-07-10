@@ -19,7 +19,7 @@
   },
   "require": {
     "php": ">=7.4.0",
-    "getkirby/cms": "^3",
+    "getkirby/cms": "^3.0",
     "getkirby/editor": "^1.0",
     "johannschopplich/kirby-extended": "^1.0",
     "lukaskleinschmidt/kirby-resolve": "^1.0",
