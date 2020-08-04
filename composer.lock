@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "274cab7f8e016660c021f8b314c0bc61",
+    "content-hash": "a5f30213a3ac4138eaaa7d2c24117ec5",
     "packages": [
         {
             "name": "claviska/simpleimage",
@@ -44,41 +44,6 @@
             ],
             "description": "A PHP class that makes working with images as simple as possible.",
             "time": "2019-09-26T01:22:02+00:00"
-        },
-        {
-            "name": "d4l/kirby-static-site-generator",
-            "version": "1.0.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/d4l-data4life/kirby3-static-site-generator.git",
-                "reference": "41bac3e98614e6829a536377d69e3ba63059b76f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/d4l-data4life/kirby3-static-site-generator/zipball/41bac3e98614e6829a536377d69e3ba63059b76f",
-                "reference": "41bac3e98614e6829a536377d69e3ba63059b76f",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/composer-installer": "^1.1"
-            },
-            "type": "kirby-plugin",
-            "extra": {
-                "installer-name": "static-site-generator"
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "D4L data4life gGmbH",
-                    "email": "contact@data4life.care",
-                    "homepage": "https://www.data4life.care"
-                }
-            ],
-            "description": "Static site generator plugin for Kirby 3",
-            "time": "2020-01-15T14:29:38+00:00"
         },
         {
             "name": "filp/whoops",
@@ -143,16 +108,16 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "3.4.0",
+            "version": "3.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "dbd7fa7f303e7045626adb72c5f0b29c6ccadb44"
+                "reference": "194fe296a45328b9e45eeb7bd8a956689963306e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/dbd7fa7f303e7045626adb72c5f0b29c6ccadb44",
-                "reference": "dbd7fa7f303e7045626adb72c5f0b29c6ccadb44",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/194fe296a45328b9e45eeb7bd8a956689963306e",
+                "reference": "194fe296a45328b9e45eeb7bd8a956689963306e",
                 "shasum": ""
             },
             "require": {
@@ -198,7 +163,7 @@
                 "core",
                 "kirby"
             ],
-            "time": "2020-07-07T10:37:11+00:00"
+            "time": "2020-08-04T13:49:21+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -287,6 +252,50 @@
                 }
             ],
             "time": "2020-07-09T16:09:55+00:00"
+        },
+        {
+            "name": "getkirby/kql",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/getkirby/kql.git",
+                "reference": "7773c785e497127deea193a457f84af13996e2e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/getkirby/kql/zipball/7773c785e497127deea193a457f84af13996e2e8",
+                "reference": "7773c785e497127deea193a457f84af13996e2e8",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "type": "kirby-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Kirby\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bastian Allgeier",
+                    "email": "bastian@getkirby.com"
+                }
+            ],
+            "description": "Kirby Query Language",
+            "homepage": "https://getkirby.com",
+            "keywords": [
+                "api",
+                "cms",
+                "json",
+                "kirby",
+                "query"
+            ],
+            "time": "2020-07-21T10:51:01+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -1086,7 +1095,7 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -1162,7 +1171,7 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -1239,7 +1248,7 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
@@ -1443,7 +1452,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "getkirby/kql": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -41,43 +41,6 @@
         "description": "A PHP class that makes working with images as simple as possible."
     },
     {
-        "name": "d4l/kirby-static-site-generator",
-        "version": "1.0.8",
-        "version_normalized": "1.0.8.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/d4l-data4life/kirby3-static-site-generator.git",
-            "reference": "41bac3e98614e6829a536377d69e3ba63059b76f"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/d4l-data4life/kirby3-static-site-generator/zipball/41bac3e98614e6829a536377d69e3ba63059b76f",
-            "reference": "41bac3e98614e6829a536377d69e3ba63059b76f",
-            "shasum": ""
-        },
-        "require": {
-            "getkirby/composer-installer": "^1.1"
-        },
-        "time": "2020-01-15T14:29:38+00:00",
-        "type": "kirby-plugin",
-        "extra": {
-            "installer-name": "static-site-generator"
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "D4L data4life gGmbH",
-                "email": "contact@data4life.care",
-                "homepage": "https://www.data4life.care"
-            }
-        ],
-        "description": "Static site generator plugin for Kirby 3"
-    },
-    {
         "name": "filp/whoops",
         "version": "2.7.2",
         "version_normalized": "2.7.2.0",
@@ -142,17 +105,17 @@
     },
     {
         "name": "getkirby/cms",
-        "version": "3.4.0",
-        "version_normalized": "3.4.0.0",
+        "version": "3.4.1",
+        "version_normalized": "3.4.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/getkirby/kirby.git",
-            "reference": "dbd7fa7f303e7045626adb72c5f0b29c6ccadb44"
+            "reference": "194fe296a45328b9e45eeb7bd8a956689963306e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/getkirby/kirby/zipball/dbd7fa7f303e7045626adb72c5f0b29c6ccadb44",
-            "reference": "dbd7fa7f303e7045626adb72c5f0b29c6ccadb44",
+            "url": "https://api.github.com/repos/getkirby/kirby/zipball/194fe296a45328b9e45eeb7bd8a956689963306e",
+            "reference": "194fe296a45328b9e45eeb7bd8a956689963306e",
             "shasum": ""
         },
         "require": {
@@ -168,7 +131,7 @@
             "phpmailer/phpmailer": "6.1.6",
             "true/punycode": "2.1.1"
         },
-        "time": "2020-07-07T10:37:11+00:00",
+        "time": "2020-08-04T13:49:21+00:00",
         "type": "kirby-cms",
         "installation-source": "dist",
         "autoload": {
@@ -291,6 +254,52 @@
                 "url": "https://getkirby.com/buy",
                 "type": "custom"
             }
+        ]
+    },
+    {
+        "name": "getkirby/kql",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/getkirby/kql.git",
+            "reference": "7773c785e497127deea193a457f84af13996e2e8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/getkirby/kql/zipball/7773c785e497127deea193a457f84af13996e2e8",
+            "reference": "7773c785e497127deea193a457f84af13996e2e8",
+            "shasum": ""
+        },
+        "require": {
+            "getkirby/composer-installer": "^1.1"
+        },
+        "time": "2020-07-21T10:51:01+00:00",
+        "type": "kirby-plugin",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Kirby\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Bastian Allgeier",
+                "email": "bastian@getkirby.com"
+            }
+        ],
+        "description": "Kirby Query Language",
+        "homepage": "https://getkirby.com",
+        "keywords": [
+            "api",
+            "cms",
+            "json",
+            "kirby",
+            "query"
         ]
     },
     {
@@ -1121,8 +1130,8 @@
     },
     {
         "name": "symfony/polyfill-ctype",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -1199,8 +1208,8 @@
     },
     {
         "name": "symfony/polyfill-mbstring",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -1278,8 +1287,8 @@
     },
     {
         "name": "symfony/polyfill-php80",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-php80.git",
