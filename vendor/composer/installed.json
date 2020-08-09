@@ -41,6 +41,43 @@
         "description": "A PHP class that makes working with images as simple as possible."
     },
     {
+        "name": "d4l/kirby-static-site-generator",
+        "version": "1.0.9",
+        "version_normalized": "1.0.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/d4l-data4life/kirby3-static-site-generator.git",
+            "reference": "9fd5a8ecd764f7ff44a22a148d056b1cab1ceee8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/d4l-data4life/kirby3-static-site-generator/zipball/9fd5a8ecd764f7ff44a22a148d056b1cab1ceee8",
+            "reference": "9fd5a8ecd764f7ff44a22a148d056b1cab1ceee8",
+            "shasum": ""
+        },
+        "require": {
+            "getkirby/composer-installer": "^1.1"
+        },
+        "time": "2020-08-05T10:52:39+00:00",
+        "type": "kirby-plugin",
+        "extra": {
+            "installer-name": "static-site-generator"
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "D4L data4life gGmbH",
+                "email": "contact@data4life.care",
+                "homepage": "https://www.data4life.care"
+            }
+        ],
+        "description": "Static site generator plugin for Kirby 3"
+    },
+    {
         "name": "filp/whoops",
         "version": "2.7.2",
         "version_normalized": "2.7.2.0",
@@ -105,17 +142,17 @@
     },
     {
         "name": "getkirby/cms",
-        "version": "3.4.1",
-        "version_normalized": "3.4.1.0",
+        "version": "3.4.2",
+        "version_normalized": "3.4.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/getkirby/kirby.git",
-            "reference": "194fe296a45328b9e45eeb7bd8a956689963306e"
+            "reference": "29b36fffa6527804ac0fdea757c77878c3ccd1b8"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/getkirby/kirby/zipball/194fe296a45328b9e45eeb7bd8a956689963306e",
-            "reference": "194fe296a45328b9e45eeb7bd8a956689963306e",
+            "url": "https://api.github.com/repos/getkirby/kirby/zipball/29b36fffa6527804ac0fdea757c77878c3ccd1b8",
+            "reference": "29b36fffa6527804ac0fdea757c77878c3ccd1b8",
             "shasum": ""
         },
         "require": {
@@ -131,7 +168,7 @@
             "phpmailer/phpmailer": "6.1.6",
             "true/punycode": "2.1.1"
         },
-        "time": "2020-08-04T13:49:21+00:00",
+        "time": "2020-08-07T11:09:54+00:00",
         "type": "kirby-cms",
         "installation-source": "dist",
         "autoload": {
@@ -203,104 +240,6 @@
         ],
         "description": "Kirby's custom Composer installer for the Kirby CMS and for Kirby plugins",
         "homepage": "https://getkirby.com"
-    },
-    {
-        "name": "getkirby/editor",
-        "version": "1.0.4",
-        "version_normalized": "1.0.4.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/getkirby/editor.git",
-            "reference": "1d19e9c8acad5125ddb6208ba109f7e2f0510eb9"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/getkirby/editor/zipball/1d19e9c8acad5125ddb6208ba109f7e2f0510eb9",
-            "reference": "1d19e9c8acad5125ddb6208ba109f7e2f0510eb9",
-            "shasum": ""
-        },
-        "require": {
-            "getkirby/composer-installer": "^1.1",
-            "paquettg/php-html-parser": "^2.1",
-            "php": ">=7.2.0"
-        },
-        "require-dev": {
-            "getkirby/cms": "^3.3"
-        },
-        "time": "2020-07-09T16:09:55+00:00",
-        "type": "kirby-plugin",
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "proprietary"
-        ],
-        "authors": [
-            {
-                "name": "Bastian Allgeier",
-                "email": "bastian@getkirby.com"
-            }
-        ],
-        "description": "Kirby Editor",
-        "homepage": "https://getkirby.com",
-        "keywords": [
-            "cms",
-            "editor",
-            "kirby",
-            "plugin",
-            "wysiwyg"
-        ],
-        "funding": [
-            {
-                "url": "https://getkirby.com/buy",
-                "type": "custom"
-            }
-        ]
-    },
-    {
-        "name": "getkirby/kql",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/getkirby/kql.git",
-            "reference": "7773c785e497127deea193a457f84af13996e2e8"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/getkirby/kql/zipball/7773c785e497127deea193a457f84af13996e2e8",
-            "reference": "7773c785e497127deea193a457f84af13996e2e8",
-            "shasum": ""
-        },
-        "require": {
-            "getkirby/composer-installer": "^1.1"
-        },
-        "time": "2020-07-21T10:51:01+00:00",
-        "type": "kirby-plugin",
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "Kirby\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Bastian Allgeier",
-                "email": "bastian@getkirby.com"
-            }
-        ],
-        "description": "Kirby Query Language",
-        "homepage": "https://getkirby.com",
-        "keywords": [
-            "api",
-            "cms",
-            "json",
-            "kirby",
-            "query"
-        ]
     },
     {
         "name": "graham-campbell/result-type",
@@ -765,110 +704,6 @@
             "spyc",
             "yaml",
             "yml"
-        ]
-    },
-    {
-        "name": "paquettg/php-html-parser",
-        "version": "2.2.1",
-        "version_normalized": "2.2.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/paquettg/php-html-parser.git",
-            "reference": "668c770fc5724ea3f15b8791435f054835be8d5e"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/paquettg/php-html-parser/zipball/668c770fc5724ea3f15b8791435f054835be8d5e",
-            "reference": "668c770fc5724ea3f15b8791435f054835be8d5e",
-            "shasum": ""
-        },
-        "require": {
-            "ext-curl": "*",
-            "ext-mbstring": "*",
-            "ext-zlib": "*",
-            "paquettg/string-encode": "~1.0.0",
-            "php": ">=7.1"
-        },
-        "require-dev": {
-            "infection/infection": "^0.13.4",
-            "mockery/mockery": "^1.2",
-            "phan/phan": "^2.4",
-            "php-coveralls/php-coveralls": "^2.1",
-            "phpunit/phpunit": "^7.5.1"
-        },
-        "time": "2020-01-20T12:59:15+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "PHPHtmlParser\\": "src/PHPHtmlParser"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Gilles Paquette",
-                "email": "paquettg@gmail.com",
-                "homepage": "http://gillespaquette.ca"
-            }
-        ],
-        "description": "An HTML DOM parser. It allows you to manipulate HTML. Find tags on an HTML page with selectors just like jQuery.",
-        "homepage": "https://github.com/paquettg/php-html-parser",
-        "keywords": [
-            "dom",
-            "html",
-            "parser"
-        ]
-    },
-    {
-        "name": "paquettg/string-encode",
-        "version": "1.0.1",
-        "version_normalized": "1.0.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/paquettg/string-encoder.git",
-            "reference": "a8708e9fac9d5ddfc8fc2aac6004e2cd05d80fee"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/paquettg/string-encoder/zipball/a8708e9fac9d5ddfc8fc2aac6004e2cd05d80fee",
-            "reference": "a8708e9fac9d5ddfc8fc2aac6004e2cd05d80fee",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=7.1"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "^7.5.1"
-        },
-        "time": "2018-12-21T02:25:09+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "stringEncode": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Gilles Paquette",
-                "email": "paquettg@gmail.com",
-                "homepage": "http://gillespaquette.ca"
-            }
-        ],
-        "description": "Facilitating the process of altering string encoding in PHP.",
-        "homepage": "https://github.com/paquettg/string-encoder",
-        "keywords": [
-            "charset",
-            "encoding",
-            "string"
         ]
     },
     {
