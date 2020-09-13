@@ -42,23 +42,23 @@
     },
     {
         "name": "d4l/kirby-static-site-generator",
-        "version": "1.0.9",
-        "version_normalized": "1.0.9.0",
+        "version": "1.0.10",
+        "version_normalized": "1.0.10.0",
         "source": {
             "type": "git",
             "url": "https://github.com/d4l-data4life/kirby3-static-site-generator.git",
-            "reference": "9fd5a8ecd764f7ff44a22a148d056b1cab1ceee8"
+            "reference": "3b54d455793c17dd2c4a2ff9559cb5f5395f2d9e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/d4l-data4life/kirby3-static-site-generator/zipball/9fd5a8ecd764f7ff44a22a148d056b1cab1ceee8",
-            "reference": "9fd5a8ecd764f7ff44a22a148d056b1cab1ceee8",
+            "url": "https://api.github.com/repos/d4l-data4life/kirby3-static-site-generator/zipball/3b54d455793c17dd2c4a2ff9559cb5f5395f2d9e",
+            "reference": "3b54d455793c17dd2c4a2ff9559cb5f5395f2d9e",
             "shasum": ""
         },
         "require": {
             "getkirby/composer-installer": "^1.1"
         },
-        "time": "2020-08-05T10:52:39+00:00",
+        "time": "2020-09-08T15:22:27+00:00",
         "type": "kirby-plugin",
         "extra": {
             "installer-name": "static-site-generator"
@@ -455,27 +455,27 @@
     },
     {
         "name": "laminas/laminas-zendframework-bridge",
-        "version": "1.0.4",
-        "version_normalized": "1.0.4.0",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/laminas/laminas-zendframework-bridge.git",
-            "reference": "fcd87520e4943d968557803919523772475e8ea3"
+            "reference": "4939c81f63a8a4968c108c440275c94955753b19"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/fcd87520e4943d968557803919523772475e8ea3",
-            "reference": "fcd87520e4943d968557803919523772475e8ea3",
+            "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/4939c81f63a8a4968c108c440275c94955753b19",
+            "reference": "4939c81f63a8a4968c108c440275c94955753b19",
             "shasum": ""
         },
         "require": {
-            "php": "^5.6 || ^7.0"
+            "php": "^5.6 || ^7.0 || ^8.0"
         },
         "require-dev": {
-            "phpunit/phpunit": "^5.7 || ^6.5 || ^7.5 || ^8.1",
+            "phpunit/phpunit": "^5.7 || ^6.5 || ^7.5 || ^8.1 || ^9.3",
             "squizlabs/php_codesniffer": "^3.5"
         },
-        "time": "2020-05-20T16:45:56+00:00",
+        "time": "2020-08-18T16:34:51+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -894,17 +894,17 @@
     },
     {
         "name": "spatie/schema-org",
-        "version": "2.14.1",
-        "version_normalized": "2.14.1.0",
+        "version": "2.16.0",
+        "version_normalized": "2.16.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/spatie/schema-org.git",
-            "reference": "a17c65150f97caf81cea490294b376fd37bee660"
+            "reference": "31f1fd54584d98b50026ecb17fe7067384ec209a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/spatie/schema-org/zipball/a17c65150f97caf81cea490294b376fd37bee660",
-            "reference": "a17c65150f97caf81cea490294b376fd37bee660",
+            "url": "https://api.github.com/repos/spatie/schema-org/zipball/31f1fd54584d98b50026ecb17fe7067384ec209a",
+            "reference": "31f1fd54584d98b50026ecb17fe7067384ec209a",
             "shasum": ""
         },
         "require": {
@@ -916,11 +916,10 @@
             "league/flysystem": "^1.0",
             "phpunit/phpunit": "^8.0",
             "symfony/console": "^3.2",
-            "symfony/css-selector": "^3.2",
-            "symfony/dom-crawler": "^3.2",
+            "tightenco/collect": "^7.25",
             "twig/twig": "^1.28"
         },
-        "time": "2020-06-10T17:06:18+00:00",
+        "time": "2020-08-27T16:55:28+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -958,8 +957,8 @@
                 "type": "custom"
             },
             {
-                "url": "https://www.patreon.com/spatie",
-                "type": "patreon"
+                "url": "https://github.com/spatie",
+                "type": "github"
             }
         ]
     },
