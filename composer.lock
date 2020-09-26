@@ -143,16 +143,16 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "3.4.2",
+            "version": "3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "29b36fffa6527804ac0fdea757c77878c3ccd1b8"
+                "reference": "7525553b8d9976d6ed08b702f62fc3d368116777"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/29b36fffa6527804ac0fdea757c77878c3ccd1b8",
-                "reference": "29b36fffa6527804ac0fdea757c77878c3ccd1b8",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/7525553b8d9976d6ed08b702f62fc3d368116777",
+                "reference": "7525553b8d9976d6ed08b702f62fc3d368116777",
                 "shasum": ""
             },
             "require": {
@@ -198,27 +198,27 @@
                 "core",
                 "kirby"
             ],
-            "time": "2020-08-07T11:09:54+00:00"
+            "time": "2020-09-15T08:09:34+00:00"
         },
         {
             "name": "getkirby/composer-installer",
-            "version": "1.1.4",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/composer-installer.git",
-                "reference": "2d6b8f5601a31caeeea45623e1643fbb437eb94e"
+                "reference": "240a8b2c275d61b66601feb58222b7d34bc6cf1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/composer-installer/zipball/2d6b8f5601a31caeeea45623e1643fbb437eb94e",
-                "reference": "2d6b8f5601a31caeeea45623e1643fbb437eb94e",
+                "url": "https://api.github.com/repos/getkirby/composer-installer/zipball/240a8b2c275d61b66601feb58222b7d34bc6cf1e",
+                "reference": "240a8b2c275d61b66601feb58222b7d34bc6cf1e",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0"
+                "composer-plugin-api": "^1.0 || ^2.0"
             },
             "require-dev": {
-                "composer/composer": "^1.8",
+                "composer/composer": "^1.8 || 2.0.*@dev",
                 "phpunit/phpunit": "^7.0"
             },
             "type": "composer-plugin",
@@ -236,7 +236,7 @@
             ],
             "description": "Kirby's custom Composer installer for the Kirby CMS and for Kirby plugins",
             "homepage": "https://getkirby.com",
-            "time": "2019-02-11T20:27:36+00:00"
+            "time": "2020-09-13T14:43:34+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -302,16 +302,16 @@
         },
         {
             "name": "johannschopplich/kirby-extended",
-            "version": "v1.0.11",
+            "version": "v1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johannschopplich/kirby-extended.git",
-                "reference": "4571eefc57f4a8be02c79aa0c2532838aa9d588b"
+                "reference": "a0eb111339b9c2bbacc39ca9352aac7f57b4e838"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johannschopplich/kirby-extended/zipball/4571eefc57f4a8be02c79aa0c2532838aa9d588b",
-                "reference": "4571eefc57f4a8be02c79aa0c2532838aa9d588b",
+                "url": "https://api.github.com/repos/johannschopplich/kirby-extended/zipball/a0eb111339b9c2bbacc39ca9352aac7f57b4e838",
+                "reference": "a0eb111339b9c2bbacc39ca9352aac7f57b4e838",
                 "shasum": ""
             },
             "require": {
@@ -335,7 +335,7 @@
                     "helpers.php"
                 ],
                 "psr-4": {
-                    "KirbyExtended\\": "src/"
+                    "KirbyExtended\\": "classes/KirbyExtended/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -358,7 +358,7 @@
                 "meta-tags",
                 "seo"
             ],
-            "time": "2020-07-19T07:23:57+00:00"
+            "time": "2020-09-18T09:22:23+00:00"
         },
         {
             "name": "kirbyzone/sitemapper",
@@ -444,16 +444,16 @@
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-zendframework-bridge.git",
-                "reference": "4939c81f63a8a4968c108c440275c94955753b19"
+                "reference": "6ede70583e101030bcace4dcddd648f760ddf642"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/4939c81f63a8a4968c108c440275c94955753b19",
-                "reference": "4939c81f63a8a4968c108c440275c94955753b19",
+                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/6ede70583e101030bcace4dcddd648f760ddf642",
+                "reference": "6ede70583e101030bcace4dcddd648f760ddf642",
                 "shasum": ""
             },
             "require": {
@@ -465,10 +465,6 @@
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev",
-                    "dev-develop": "1.1.x-dev"
-                },
                 "laminas": {
                     "module": "Laminas\\ZendFrameworkBridge"
                 }
@@ -498,7 +494,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2020-08-18T16:34:51+00:00"
+            "time": "2020-09-14T14:23:00+00:00"
         },
         {
             "name": "league/color-extractor",
@@ -1214,16 +1210,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v5.1.0",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "448c76d7a9e30c341ff5bc367a923af74ae18467"
+                "reference": "fba64139db67123c7a57072e5f8d3db10d160b66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/448c76d7a9e30c341ff5bc367a923af74ae18467",
-                "reference": "448c76d7a9e30c341ff5bc367a923af74ae18467",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/fba64139db67123c7a57072e5f8d3db10d160b66",
+                "reference": "fba64139db67123c7a57072e5f8d3db10d160b66",
                 "shasum": ""
             },
             "require": {
@@ -1246,7 +1242,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "5.2-dev"
                 }
             },
             "autoload": {
@@ -1286,7 +1282,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-14T19:26:25+00:00"
+            "time": "2020-09-14T15:57:31+00:00"
         }
     ],
     "packages-dev": [],
