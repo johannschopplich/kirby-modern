@@ -33,4 +33,4 @@ $sitemapXsl = snippet('sitemapper/xsl', [], true);
 F::write($outputFolder . '/sitemap.xml', $sitemapXml);
 F::write($outputFolder . '/sitemap.xsl', $sitemapXsl);
 
-echo 'Your static site has been generated in ' . $outputFolder;
+echo 'Static site successfully built to ' . $outputFolder;
