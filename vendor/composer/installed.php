@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'acab28cfed1d33ec5023ef90be3971c6c2990470',
+    'reference' => '4cc2a4ba300b14b752f7f3cc6cc7686fe879ebd0',
     'name' => 'getkirby/starterkit',
   ),
   'versions' => 
@@ -63,7 +63,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'acab28cfed1d33ec5023ef90be3971c6c2990470',
+      'reference' => '4cc2a4ba300b14b752f7f3cc6cc7686fe879ebd0',
     ),
     'graham-campbell/result-type' => 
     array (
@@ -76,12 +76,12 @@
     ),
     'johannschopplich/kirby-extended' => 
     array (
-      'pretty_version' => 'v1.0.12',
-      'version' => '1.0.12.0',
+      'pretty_version' => 'v1.1.0',
+      'version' => '1.1.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'a0eb111339b9c2bbacc39ca9352aac7f57b4e838',
+      'reference' => '4ad146ff29e79b80a184ed3aa43bac6d8037b68f',
     ),
     'kirbyzone/sitemapper' => 
     array (
@@ -179,15 +179,6 @@
       array (
       ),
       'reference' => '0f73288fd15629204f9d42b7055f72dacbe811fc',
-    ),
-    'spatie/schema-org' => 
-    array (
-      'pretty_version' => '2.16.0',
-      'version' => '2.16.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '31f1fd54584d98b50026ecb17fe7067384ec209a',
     ),
     'symfony/polyfill-ctype' => 
     array (
