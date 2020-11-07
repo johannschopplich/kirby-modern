@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '4cc2a4ba300b14b752f7f3cc6cc7686fe879ebd0',
+    'reference' => '2b7edf7306084b193d947db00d42af3b1c32919d',
     'name' => 'getkirby/starterkit',
   ),
   'versions' => 
@@ -76,7 +76,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '4cc2a4ba300b14b752f7f3cc6cc7686fe879ebd0',
+      'reference' => '2b7edf7306084b193d947db00d42af3b1c32919d',
     ),
     'graham-campbell/result-type' => 
     array (
@@ -131,15 +131,6 @@ private static $installed = array (
       array (
       ),
       'reference' => '837086ec60f50c84c611c613963e4ad2e2aec806',
-    ),
-    'lukaskleinschmidt/kirby-resolve' => 
-    array (
-      'pretty_version' => '1.0.2',
-      'version' => '1.0.2.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '4c87912678774a2c2b3b945c65fe7cdc116d4648',
     ),
     'matthecat/colorextractor' => 
     array (
