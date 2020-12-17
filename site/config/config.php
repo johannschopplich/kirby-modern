@@ -11,7 +11,7 @@ return [
         'install' => env('KIRBY_PANEL_INSTALL', false)
     ],
 
-    'routes' => require 'routes.php',
+    'routes' => require __DIR__ . '/routes.php',
 
     'cache' => [
         'pages' => [
