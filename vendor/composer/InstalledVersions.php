@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '3a7f6581a2edec31f04a9f3ac647efec29701df7',
+    'reference' => '4d735e714210a5f59429a6b6f35fc9a8f09b732f',
     'name' => 'getkirby/starterkit',
   ),
   'versions' => 
@@ -86,7 +86,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '3a7f6581a2edec31f04a9f3ac647efec29701df7',
+      'reference' => '4d735e714210a5f59429a6b6f35fc9a8f09b732f',
     ),
     'graham-campbell/result-type' => 
     array (
@@ -99,12 +99,12 @@ private static $installed = array (
     ),
     'johannschopplich/kirby-extended' => 
     array (
-      'pretty_version' => 'v1.1.1',
-      'version' => '1.1.1.0',
+      'pretty_version' => 'v1.2.2',
+      'version' => '1.2.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'b22b810dee3873320de86d8fc1cb7a625b279c21',
+      'reference' => 'd02b2b1cdac4038ea54f51ed4621f8561c71fbc5',
     ),
     'kirbyzone/sitemapper' => 
     array (
@@ -194,6 +194,15 @@ private static $installed = array (
       ),
       'reference' => '0f73288fd15629204f9d42b7055f72dacbe811fc',
     ),
+    'symfony/css-selector' => 
+    array (
+      'pretty_version' => 'v5.2.1',
+      'version' => '5.2.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f789e7ead4c79e04ca9a6d6162fc629c89bd8054',
+    ),
     'symfony/polyfill-ctype' => 
     array (
       'pretty_version' => 'v1.20.0',
@@ -238,6 +247,24 @@ private static $installed = array (
       array (
       ),
       'reference' => 'fba64139db67123c7a57072e5f8d3db10d160b66',
+    ),
+    'voku/html-min' => 
+    array (
+      'pretty_version' => '4.4.8',
+      'version' => '4.4.8.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4f700584abd70b308b7d06b8e4cfcc31711faaf9',
+    ),
+    'voku/simple_html_dom' => 
+    array (
+      'pretty_version' => '4.7.28',
+      'version' => '4.7.28.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '78d5894c7f0facfb4fb6369af15b1a87baea958c',
     ),
     'zendframework/zend-escaper' => 
     array (
