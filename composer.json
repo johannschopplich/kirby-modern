@@ -34,12 +34,6 @@
     },
     "exclude-from-classmap": ["vendor/getkirby/cms/src/Data/Yaml.php"]
   },
-  "scripts": {
-    "static": [
-      "Composer\\Config::disableProcessTimeout",
-      "./scripts/generate-static-pages"
-    ]
-  },
   "extra": {
     "kirby-cms-path": false
   }
