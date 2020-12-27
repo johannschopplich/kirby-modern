@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '4d735e714210a5f59429a6b6f35fc9a8f09b732f',
+    'reference' => 'f0e578b4cfe8e6a893dcc914e83caa4b2151791e',
     'name' => 'getkirby/starterkit',
   ),
   'versions' => 
@@ -86,7 +86,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '4d735e714210a5f59429a6b6f35fc9a8f09b732f',
+      'reference' => 'f0e578b4cfe8e6a893dcc914e83caa4b2151791e',
     ),
     'graham-campbell/result-type' => 
     array (
@@ -203,6 +203,15 @@ private static $installed = array (
       ),
       'reference' => 'f789e7ead4c79e04ca9a6d6162fc629c89bd8054',
     ),
+    'symfony/deprecation-contracts' => 
+    array (
+      'pretty_version' => 'v2.2.0',
+      'version' => '2.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5fa56b4074d1ae755beb55617ddafe6f5d78f665',
+    ),
     'symfony/polyfill-ctype' => 
     array (
       'pretty_version' => 'v1.20.0',
@@ -229,6 +238,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'e70aa8b064c5b72d3df2abd5ab1e90464ad009de',
+    ),
+    'symfony/yaml' => 
+    array (
+      'pretty_version' => 'v5.2.1',
+      'version' => '5.2.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '290ea5e03b8cf9b42c783163123f54441fb06939',
     ),
     'true/punycode' => 
     array (
