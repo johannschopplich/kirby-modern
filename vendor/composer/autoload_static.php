@@ -125,8 +125,8 @@ class ComposerStaticInitb2f4b53c91bf60cf0a33306814bacb88
         'Kirby\\' => 
         array (
             0 => __DIR__ . '/../..' . '/site/app',
-            1 => __DIR__ . '/..' . '/getkirby/composer-installer/src',
-            2 => __DIR__ . '/..' . '/getkirby/cms/src',
+            1 => __DIR__ . '/..' . '/getkirby/cms/src',
+            2 => __DIR__ . '/..' . '/getkirby/composer-installer/src',
         ),
         'KirbyExtended\\' => 
         array (

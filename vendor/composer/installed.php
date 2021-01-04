@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'edd21184df88b62d354ae3decca3488f39ca8fca',
+    'reference' => 'a3ebd8cffdfe99b2bf9fcb5df2d172635058a3a5',
     'name' => 'getkirby/starterkit',
   ),
   'versions' => 
@@ -63,7 +63,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'edd21184df88b62d354ae3decca3488f39ca8fca',
+      'reference' => 'a3ebd8cffdfe99b2bf9fcb5df2d172635058a3a5',
     ),
     'graham-campbell/result-type' => 
     array (

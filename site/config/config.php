@@ -1,7 +1,7 @@
 <?php
 
 $base = dirname(__DIR__, 2);
-\KirbyExtended\EnvAdapter::load($base);
+\KirbyExtended\Env::load($base);
 
 return [
 
@@ -10,8 +10,6 @@ return [
     'panel' => [
         'install' => env('KIRBY_PANEL_INSTALL', false)
     ],
-
-    'routes' => require __DIR__ . '/routes.php',
 
     'cache' => [
         'pages' => [
@@ -24,17 +22,21 @@ return [
         ]
     ],
 
-    'kirby-extended.sitemap' => [
-        'enable' => true,
-        'templatesInclude' => [
-            'about',
-            'album',
-            'default',
-            'home',
-            'note',
-            'notes',
-            'photography'
+    'kirby-extended' => [
+        'robots' => [
+            'enable' => true
+        ],
+        'sitemap' => [
+            'enable' => true,
+            'templatesInclude' => [
+                'about',
+                'album',
+                'default',
+                'home',
+                'note',
+                'notes',
+                'photography'
+            ]
         ]
     ]
-
 ];
