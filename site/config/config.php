@@ -24,8 +24,17 @@ return [
         ]
     ],
 
-    'cre8ivclick.sitemapper' => [
-        'title' => 'Sitemap'
+    'kirby-extended.sitemap' => [
+        'enable' => true,
+        'templatesInclude' => [
+            'about',
+            'album',
+            'default',
+            'home',
+            'note',
+            'notes',
+            'photography'
+        ]
     ]
 
 ];

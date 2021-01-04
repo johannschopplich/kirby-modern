@@ -21,9 +21,8 @@
     "php": ">=7.4.0",
     "getkirby/cms": "^3.0",
     "symfony/yaml": "^5.0",
-    "johannschopplich/kirby-extended": "^1.0",
-    "d4l/kirby-static-site-generator": "^1.0",
-    "kirbyzone/sitemapper": "^1.0"
+    "johannschopplich/kirby-extended": "^2.0",
+    "d4l/kirby-static-site-generator": "^1.0"
   },
   "config": {
     "optimize-autoloader": true
