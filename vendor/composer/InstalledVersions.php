@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'a3ebd8cffdfe99b2bf9fcb5df2d172635058a3a5',
+    'reference' => 'a9845e34cffbab2d2de30ccac07efbdebecfcc8f',
     'name' => 'getkirby/starterkit',
   ),
   'versions' => 
@@ -86,7 +86,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'a3ebd8cffdfe99b2bf9fcb5df2d172635058a3a5',
+      'reference' => 'a9845e34cffbab2d2de30ccac07efbdebecfcc8f',
     ),
     'graham-campbell/result-type' => 
     array (
@@ -99,12 +99,12 @@ private static $installed = array (
     ),
     'johannschopplich/kirby-extended' => 
     array (
-      'pretty_version' => 'v2.5.1',
-      'version' => '2.5.1.0',
+      'pretty_version' => 'v2.5.3',
+      'version' => '2.5.3.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'b7e264590fd20af290330480d5f301eceb5f5c4b',
+      'reference' => '91817d9164b6e4cf7094bcf3d9c77b7cde05c183',
     ),
     'laminas/laminas-escaper' => 
     array (
