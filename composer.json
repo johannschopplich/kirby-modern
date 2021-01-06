@@ -24,6 +24,12 @@
     "johannschopplich/kirby-extended": "^2.0",
     "d4l/kirby-static-site-generator": "^1.0"
   },
+  "scripts": {
+    "start": [
+      "Composer\\Config::disableProcessTimeout",
+      "@php -S 127.0.0.1:8000 -t public/ server.php"
+    ]
+  },
   "config": {
     "optimize-autoloader": true
   },
