@@ -30,14 +30,14 @@
       "@php -S 127.0.0.1:8000 -t public/ server.php"
     ]
   },
-  "config": {
-    "optimize-autoloader": true
-  },
   "autoload": {
     "psr-4": {
       "Kirby\\": "site/app/"
     },
     "exclude-from-classmap": ["vendor/getkirby/cms/src/Data/Yaml.php"]
+  },
+  "config": {
+    "optimize-autoloader": true
   },
   "extra": {
     "kirby-cms-path": false
