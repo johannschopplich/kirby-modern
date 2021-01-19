@@ -34,7 +34,9 @@
     "psr-4": {
       "Kirby\\": "site/app/"
     },
-    "exclude-from-classmap": ["vendor/getkirby/cms/src/Data/Yaml.php"]
+    "exclude-from-classmap": [
+      "vendor/getkirby/cms/src/Data/Yaml.php"
+    ]
   },
   "config": {
     "optimize-autoloader": true

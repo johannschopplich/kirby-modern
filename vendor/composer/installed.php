@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'eec8e5dc8248f95d53b5f2d5a4e1dffeea1b89e8',
+    'reference' => 'fb72263376f08a90bd21bddda0bd41ed8b51d50a',
     'name' => 'getkirby/starterkit',
   ),
   'versions' => 
@@ -40,12 +40,12 @@
     ),
     'getkirby/cms' => 
     array (
-      'pretty_version' => '3.5.0',
-      'version' => '3.5.0.0',
+      'pretty_version' => '3.5.1',
+      'version' => '3.5.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => '0d2751af7cb478df14f30fac47fe9a2cd3b38114',
+      'reference' => '551e2f427eaf18e471df1c304552ab3de35e37c6',
     ),
     'getkirby/composer-installer' => 
     array (
@@ -63,7 +63,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'eec8e5dc8248f95d53b5f2d5a4e1dffeea1b89e8',
+      'reference' => 'fb72263376f08a90bd21bddda0bd41ed8b51d50a',
     ),
     'graham-campbell/result-type' => 
     array (
@@ -76,12 +76,12 @@
     ),
     'johannschopplich/kirby-extended' => 
     array (
-      'pretty_version' => 'v2.7.0',
-      'version' => '2.7.0.0',
+      'pretty_version' => 'v2.7.1',
+      'version' => '2.7.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'ce54c468cb611a49862cf5e3fe38a4ca7ccd5731',
+      'reference' => 'faaa10100da8ecee94da88860e8cc23caf8781e5',
     ),
     'laminas/laminas-escaper' => 
     array (
