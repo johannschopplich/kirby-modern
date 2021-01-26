@@ -31,6 +31,8 @@ function increase_time_limit(int $seconds): bool
 
 increase_time_limit(180);
 
+echo "\033[1mGenerating sitemap…\033[0m\n";
 \KirbyExtended\SiteMeta::sitemap();
+echo "\033[32mSuccessfully indexed and cached sitemap.\033[0m\n";
 
 exit(0);
