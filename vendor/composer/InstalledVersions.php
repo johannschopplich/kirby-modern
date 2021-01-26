@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'fb72263376f08a90bd21bddda0bd41ed8b51d50a',
+    'reference' => '164963c662b87e449fc318ecf33a530b41216e3d',
     'name' => 'getkirby/starterkit',
   ),
   'versions' => 
@@ -86,7 +86,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'fb72263376f08a90bd21bddda0bd41ed8b51d50a',
+      'reference' => '164963c662b87e449fc318ecf33a530b41216e3d',
     ),
     'graham-campbell/result-type' => 
     array (
@@ -99,12 +99,12 @@ private static $installed = array (
     ),
     'johannschopplich/kirby-extended' => 
     array (
-      'pretty_version' => 'v2.7.1',
-      'version' => '2.7.1.0',
+      'pretty_version' => 'v2.7.2',
+      'version' => '2.7.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'faaa10100da8ecee94da88860e8cc23caf8781e5',
+      'reference' => 'a6c167f724b8ee813b071f30a3f3a88636695cfe',
     ),
     'laminas/laminas-escaper' => 
     array (
@@ -250,12 +250,12 @@ private static $installed = array (
     ),
     'vlucas/phpdotenv' => 
     array (
-      'pretty_version' => 'v5.2.0',
-      'version' => '5.2.0.0',
+      'pretty_version' => 'v5.3.0',
+      'version' => '5.3.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'fba64139db67123c7a57072e5f8d3db10d160b66',
+      'reference' => 'b3eac5c7ac896e52deab4a99068e3f4ab12d9e56',
     ),
     'voku/html-min' => 
     array (

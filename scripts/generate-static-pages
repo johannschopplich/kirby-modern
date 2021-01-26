@@ -21,7 +21,7 @@ $kirby = new Kirby\Cms\App([
 $outputFolder = $base . '/static';
 
 // Render and save html files
-$staticSiteGenerator = new D4L\StaticSiteGenerator($kirby, $pathsToCopy = null, $pages = null);
-$fileList = $staticSiteGenerator->generate($outputFolder, $baseUrl = '/', $preserve = []);
+$staticSiteGenerator = new D4L\StaticSiteGenerator($kirby);
+$fileList = $staticSiteGenerator->generate($outputFolder);
 
 echo 'Static site successfully built to ' . $outputFolder . PHP_EOL;
