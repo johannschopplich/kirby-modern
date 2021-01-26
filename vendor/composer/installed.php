@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '164963c662b87e449fc318ecf33a530b41216e3d',
+    'reference' => '529c69e6f9d6f74de8038a9d5091df8b313d1927',
     'name' => 'getkirby/starterkit',
   ),
   'versions' => 
@@ -63,7 +63,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '164963c662b87e449fc318ecf33a530b41216e3d',
+      'reference' => '529c69e6f9d6f74de8038a9d5091df8b313d1927',
     ),
     'graham-campbell/result-type' => 
     array (
@@ -76,12 +76,12 @@
     ),
     'johannschopplich/kirby-extended' => 
     array (
-      'pretty_version' => 'v2.7.2',
-      'version' => '2.7.2.0',
+      'pretty_version' => 'v2.7.3',
+      'version' => '2.7.3.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'a6c167f724b8ee813b071f30a3f3a88636695cfe',
+      'reference' => '02b32d175568be60cf28fa06588394dc33e0183e',
     ),
     'laminas/laminas-escaper' => 
     array (
