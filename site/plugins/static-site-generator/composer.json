@@ -11,11 +11,16 @@
       "homepage": "https://www.data4life.care"
     }
   ],
-  "config": {
-    "optimize-autoloader": true
-  },
   "require": {
     "getkirby/composer-installer": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "D4L\\": "classes/D4L/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
   },
   "extra": {
     "installer-name": "static-site-generator"

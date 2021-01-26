@@ -57,7 +57,7 @@ panel.plugin('d4l/static-site-generator', {
         async execute() {
           const { endpoint } = this.$props;
           if (!endpoint) {
-            throw new Error('Error: Config option "d4l.static_site_generator.endpoint" is missing or null. Please set this to any string, e.g. "generate-static-site".');
+            throw new Error('Error: Config option "d4l.staticSiteGenerator.endpoint" is missing or null. Please set this to any string, e.g. "generate-static-site".');
           }
 
           this.isBusy = true;
