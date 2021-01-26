@@ -44,7 +44,7 @@ $staticSiteGenerator = new D4L\StaticSiteGenerator($kirby, $pathsToCopy = null, 
 $fileList = $staticSiteGenerator->generate($outputFolder = './static', $baseUrl = '/', $preserve = []);
 ```
 
-- `$pathsToCopy`: if not given, `$kirby->roots()->assets()` is used; set to `[]` to skip copying other files than media
+- `$pathsToCopy`: if not given, `$kirby->root('assets')` is used; set to `[]` to skip copying other files than media
 - `$pages`: if not given, all pages are rendered
 - use `$preserve` to preserve individual files or folders in your output folder, e.g. if you want to preserve a `README.md` in your output folder, set `$preserve`to `['README.md']`; any files or folders directly in the root level and starting with `.` are always preserved (e.g. `.git`)
 
@@ -66,23 +66,22 @@ fields:
 ## Available configuration options
 
 ```php
+// config.php
 return [
-    'd4l' => [
-      'staticSiteGenerator' => [
+    'd4l.staticSiteGenerator' => [
         'endpoint' => null, # set to any string like 'generate-static-site' to use the built-in endpoint (necessary when using the blueprint field)
         'outputFolder' => './static', # you can specify an absolute or relative path
         'preserve' => [], # preserve individual files / folders in the root level of the output folder (anything starting with "." is always preserved)
-        'base_url' => '/', # if the static site is not mounted to the root folder of your domain, change accordingly here
-        'skip_media' => false, # set to true to skip copying media files, e.g. when they are already on a CDN; combinable with 'preserve' => ['media']
-        'skip_templates' => [] # ignore pages with given templates (home is always rendered)
-      ]
+        'baseUrl' => '/', # if the static site is not mounted to the root folder of your domain, change accordingly here
+        'skipMedia' => false, # set to true to skip copying media files, e.g. when they are already on a CDN; combinable with 'preserve' => ['media']
+        'skipTemplates' => [] # ignore pages with given templates (home is always rendered)
     ]
 ];
 ```
 
 All of these options are only relevant if you use implementation options 2) or 3).
 When directly using the `D4L\StaticSiteGenerator` class, no config options are required.
-In that case, options like `skip_media` can be achieved by calling `$staticSiteGenerator->skipMedia(true)`.
+In that case, options like `skipMedia` can be achieved by calling `$staticSiteGenerator->skipMedia(true)`.
 
 ## Field options
 
