@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '529c69e6f9d6f74de8038a9d5091df8b313d1927',
+    'reference' => 'f2566262f729a2c7f844115b195edd61270ca1fe',
     'name' => 'getkirby/starterkit',
   ),
   'versions' => 
@@ -86,7 +86,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '529c69e6f9d6f74de8038a9d5091df8b313d1927',
+      'reference' => 'f2566262f729a2c7f844115b195edd61270ca1fe',
     ),
     'graham-campbell/result-type' => 
     array (

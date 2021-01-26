@@ -7,8 +7,8 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'D4L\\StaticSiteGenerator' => $baseDir . '/classes/D4L/StaticSiteGenerator.php',
-    'D4L\\StaticSiteGeneratorMedia' => $baseDir . '/classes/D4L/StaticSiteGeneratorMedia.php',
+    'D4L\\StaticSite\\Generator' => $baseDir . '/classes/D4L/StaticSite/Generator.php',
+    'D4L\\StaticSite\\Media' => $baseDir . '/classes/D4L/StaticSite/Media.php',
     'Kirby\\ComposerInstaller\\CmsInstaller' => $vendorDir . '/getkirby/composer-installer/src/ComposerInstaller/CmsInstaller.php',
     'Kirby\\ComposerInstaller\\Installer' => $vendorDir . '/getkirby/composer-installer/src/ComposerInstaller/Installer.php',
     'Kirby\\ComposerInstaller\\Plugin' => $vendorDir . '/getkirby/composer-installer/src/ComposerInstaller/Plugin.php',

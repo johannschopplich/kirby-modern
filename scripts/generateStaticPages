@@ -18,10 +18,10 @@ $kirby = new Kirby\Cms\App([
     ]
 ]);
 
-$outputFolder = $base . '/static';
+echo "\033[1mGenerating static pages and media…\033[0m\n";
 
-// Render and save html files
-$staticSiteGenerator = new D4L\StaticSiteGenerator($kirby);
+$outputFolder = $base . '/static';
+$staticSiteGenerator = new D4L\StaticSite\Generator($kirby);
 $fileList = $staticSiteGenerator->generate($outputFolder);
 
-echo 'Static site successfully built to ' . $outputFolder . PHP_EOL;
+echo "\033[32mSuccessfully built static site to {$outputFolder}.\033[0m\n";

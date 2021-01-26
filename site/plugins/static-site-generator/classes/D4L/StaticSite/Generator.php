@@ -1,6 +1,6 @@
 <?php
 
-namespace D4L;
+namespace D4L\StaticSite;
 
 use Error;
 use Kirby\Cms\App;
@@ -10,7 +10,7 @@ use Kirby\Toolkit\Dir;
 use Kirby\Toolkit\F;
 use Whoops\Exception\ErrorException;
 
-class StaticSiteGenerator
+class Generator
 {
     protected $_kirby;
     protected $_pathsToCopy;
@@ -61,7 +61,7 @@ class StaticSiteGenerator
         $baseUrl = rtrim($baseUrl, '/') . '/';
 
         $copyMedia = !$this->_skipCopyingMedia;
-        $copyMedia && StaticSiteGeneratorMedia::setActive(true);
+        $copyMedia && Media::setActive(true);
 
         $homePage = $this->_pages->findBy('isHomePage', 'true');
         if ($homePage) {
@@ -76,8 +76,8 @@ class StaticSiteGenerator
         if ($copyMedia) {
             $this->_copyMediaFiles();
 
-            StaticSiteGeneratorMedia::setActive(false);
-            StaticSiteGeneratorMedia::clearList();
+            Media::setActive(false);
+            Media::clearList();
         }
 
         return $this->_fileList;
@@ -171,7 +171,7 @@ class StaticSiteGenerator
     protected function _copyMediaFiles()
     {
         $outputFolder = $this->_outputFolder;
-        $mediaList = StaticSiteGeneratorMedia::getList();
+        $mediaList = Media::getList();
 
         foreach ($mediaList as $item) {
             $file = $item['root'];

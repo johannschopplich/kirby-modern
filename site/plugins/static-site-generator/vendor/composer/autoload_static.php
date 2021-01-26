@@ -30,8 +30,8 @@ class ComposerStaticInitd0bcfd8f57694732349b6e17d290bfa3
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'D4L\\StaticSiteGenerator' => __DIR__ . '/../..' . '/classes/D4L/StaticSiteGenerator.php',
-        'D4L\\StaticSiteGeneratorMedia' => __DIR__ . '/../..' . '/classes/D4L/StaticSiteGeneratorMedia.php',
+        'D4L\\StaticSite\\Generator' => __DIR__ . '/../..' . '/classes/D4L/StaticSite/Generator.php',
+        'D4L\\StaticSite\\Media' => __DIR__ . '/../..' . '/classes/D4L/StaticSite/Media.php',
         'Kirby\\ComposerInstaller\\CmsInstaller' => __DIR__ . '/..' . '/getkirby/composer-installer/src/ComposerInstaller/CmsInstaller.php',
         'Kirby\\ComposerInstaller\\Installer' => __DIR__ . '/..' . '/getkirby/composer-installer/src/ComposerInstaller/Installer.php',
         'Kirby\\ComposerInstaller\\Plugin' => __DIR__ . '/..' . '/getkirby/composer-installer/src/ComposerInstaller/Plugin.php',

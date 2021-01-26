@@ -40,7 +40,7 @@ Alternatively, create a `static-site-generator` folder in `site/plugins`, downlo
 ### 1) Directly (e.g. from a kirby hook)
 
 ```php
-$staticSiteGenerator = new D4L\StaticSiteGenerator($kirby, $pathsToCopy = null, $pages = null);
+$staticSiteGenerator = new D4L\StaticSite\Generator($kirby, $pathsToCopy = null, $pages = null);
 $fileList = $staticSiteGenerator->generate($outputFolder = './static', $baseUrl = '/', $preserve = []);
 ```
 
@@ -80,7 +80,7 @@ return [
 ```
 
 All of these options are only relevant if you use implementation options 2) or 3).
-When directly using the `D4L\StaticSiteGenerator` class, no config options are required.
+When directly using the `D4L\StaticSite\Generator` class, no config options are required.
 In that case, options like `skipMedia` can be achieved by calling `$staticSiteGenerator->skipMedia(true)`.
 
 ## Field options

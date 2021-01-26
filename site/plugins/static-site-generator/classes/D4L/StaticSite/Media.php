@@ -1,8 +1,8 @@
 <?php
 
-namespace D4L;
+namespace D4L\StaticSite;
 
-class StaticSiteGeneratorMedia
+class Media
 {
     protected static $_instance;
     protected $_active = false;
