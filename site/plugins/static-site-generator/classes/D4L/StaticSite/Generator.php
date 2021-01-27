@@ -44,6 +44,7 @@ class Generator
     {
         $this->_outputFolder = $this->_resolveRelativePath($outputFolder ?: $this->_outputFolder);
         $this->_checkOutputFolder();
+
         F::write($this->_outputFolder . '/.kirbystatic', '');
 
         $this->clearFolder($this->_outputFolder, $preserve);
@@ -130,9 +131,9 @@ class Generator
     protected function _generatePage(Page $page, string $path, string $baseUrl)
     {
         $html = $page->render();
-
         $jsonOriginalBaseUrl = trim(json_encode($this->_originalBaseUrl), '"');
         $jsonBaseUrl = trim(json_encode($baseUrl), '"');
+
         $html = str_replace($this->_originalBaseUrl . '/', $baseUrl, $html);
         $html = str_replace($this->_originalBaseUrl, $baseUrl, $html);
         $html = str_replace($jsonOriginalBaseUrl . '\\/', $jsonBaseUrl, $html);
@@ -257,7 +258,7 @@ class Generator
     {
         $folder = $this->_outputFolder;
         if (!$folder) {
-            throw new Error('Error: Please specify a valid output folder!');
+            throw new Error('Please specify a valid output folder');
         }
 
         if (Dir::isEmpty($folder)) {
@@ -265,12 +266,13 @@ class Generator
         }
 
         if (!Dir::isWritable($folder)) {
-            throw new Error('Error: The output folder is not writable');
+            throw new Error('The output folder is not writable');
         }
 
-        $fileList = array_map(function ($path) use ($folder) {
-            return str_replace($folder . '/', '', $path);
-        }, $this->_getFileList($folder));
+        $fileList = array_map(
+            fn($path) => str_replace($folder . '/', '', $path),
+            $this->_getFileList($folder)
+        );
 
         if (in_array('index.html', $fileList) || in_array('.kirbystatic', $fileList)) {
             return;
