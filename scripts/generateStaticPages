@@ -2,7 +2,7 @@
 <?php
 
 // Check if we are indeed on the command line
-if (php_sapi_name() !== 'cli') die();
+if (php_sapi_name() !== 'cli') exit();
 
 $base = dirname(__DIR__);
 require $base . '/vendor/autoload.php';
@@ -24,7 +24,7 @@ $kirby = new Kirby\Cms\App([
 echo "\033[1mGenerating static pages and media…\033[0m\n";
 
 $outputFolder = $base . '/static';
-$staticSiteGenerator = new D4L\StaticSite\Generator($kirby);
+$staticSiteGenerator = new \D4L\StaticSite\Generator($kirby);
 $fileList = $staticSiteGenerator->generate($outputFolder);
 
 echo "\033[32mSuccessfully built static site to {$outputFolder}.\033[0m\n";
