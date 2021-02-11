@@ -12,9 +12,9 @@ class ComposerStaticInitb2f4b53c91bf60cf0a33306814bacb88
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '04c6c5c2f7095ccf6c481d3e53e1776f' => __DIR__ . '/..' . '/mustangostang/spyc/Spyc.php',
+        '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
         'f864ae44e8154e5ff6f4eec32f46d37f' => __DIR__ . '/..' . '/getkirby/cms/config/setup.php',
         '87988fc7b1c1f093da22a1a3de972f3a' => __DIR__ . '/..' . '/getkirby/cms/config/helpers.php',
-        '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
         '7f15a39b34659ec7c61fd4bc2f79c539' => __DIR__ . '/../..' . '/site/plugins/kirby-extended/helpers.php',
     );
 
@@ -126,8 +126,8 @@ class ComposerStaticInitb2f4b53c91bf60cf0a33306814bacb88
         'Kirby\\' => 
         array (
             0 => __DIR__ . '/../..' . '/site/app',
-            1 => __DIR__ . '/..' . '/getkirby/cms/src',
-            2 => __DIR__ . '/..' . '/getkirby/composer-installer/src',
+            1 => __DIR__ . '/..' . '/getkirby/composer-installer/src',
+            2 => __DIR__ . '/..' . '/getkirby/cms/src',
         ),
         'KirbyExtended\\' => 
         array (

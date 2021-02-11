@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'a36d4dae3612248701443b1836155b28421ea90d',
+    'reference' => 'abeb5c1c34236ed52d41ce4532fea7e259979598',
     'name' => 'getkirby/starterkit',
   ),
   'versions' => 
@@ -40,12 +40,12 @@
     ),
     'getkirby/cms' => 
     array (
-      'pretty_version' => '3.5.1',
-      'version' => '3.5.1.0',
+      'pretty_version' => '3.5.3',
+      'version' => '3.5.3.0',
       'aliases' => 
       array (
       ),
-      'reference' => '551e2f427eaf18e471df1c304552ab3de35e37c6',
+      'reference' => '317f494ee5166f36e32f9acf286f69786de30512',
     ),
     'getkirby/composer-installer' => 
     array (
@@ -63,7 +63,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'a36d4dae3612248701443b1836155b28421ea90d',
+      'reference' => 'abeb5c1c34236ed52d41ce4532fea7e259979598',
     ),
     'graham-campbell/result-type' => 
     array (
@@ -76,12 +76,12 @@
     ),
     'johannschopplich/kirby-extended' => 
     array (
-      'pretty_version' => 'v2.7.3',
-      'version' => '2.7.3.0',
+      'pretty_version' => 'v2.7.6',
+      'version' => '2.7.6.0',
       'aliases' => 
       array (
       ),
-      'reference' => '02b32d175568be60cf28fa06588394dc33e0183e',
+      'reference' => 'a1f9a0d6c4e9c02dc12c9ff8fd70d4a88965278f',
     ),
     'laminas/laminas-escaper' => 
     array (
@@ -164,8 +164,8 @@
     ),
     'symfony/css-selector' => 
     array (
-      'pretty_version' => 'v5.2.2',
-      'version' => '5.2.2.0',
+      'pretty_version' => 'v5.2.3',
+      'version' => '5.2.3.0',
       'aliases' => 
       array (
       ),
@@ -209,12 +209,12 @@
     ),
     'symfony/yaml' => 
     array (
-      'pretty_version' => 'v5.2.2',
-      'version' => '5.2.2.0',
+      'pretty_version' => 'v5.2.3',
+      'version' => '5.2.3.0',
       'aliases' => 
       array (
       ),
-      'reference' => '6bb8b36c6dea8100268512bf46e858c8eb5c545e',
+      'reference' => '338cddc6d74929f6adf19ca5682ac4b8e109cdb0',
     ),
     'true/punycode' => 
     array (
