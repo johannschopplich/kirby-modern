@@ -27,16 +27,7 @@ return [
             'enable' => true
         ],
         'sitemap' => [
-            'enable' => true,
-            'templatesInclude' => [
-                'about',
-                'album',
-                'default',
-                'home',
-                'note',
-                'notes',
-                'photography'
-            ]
+            'enable' => true
         ]
     ]
 ];
