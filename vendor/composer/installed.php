@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'e1c6ae67670deaaf484d96a8e9aca2ba5bbd13ea',
+        'reference' => '2accd40b645a5ab361f3c45805a61b735d9b71b5',
         'name' => 'getkirby/starterkit',
         'dev' => true,
     ),
@@ -29,12 +29,12 @@
             'dev_requirement' => false,
         ),
         'getkirby/cms' => array(
-            'pretty_version' => '3.5.7',
-            'version' => '3.5.7.0',
+            'pretty_version' => '3.5.7.1',
+            'version' => '3.5.7.1',
             'type' => 'kirby-cms',
             'install_path' => __DIR__ . '/../getkirby/cms',
             'aliases' => array(),
-            'reference' => '33953892b1b67983caf1b3bd10ed56dd1616cace',
+            'reference' => 'c77ccb82944b5fa0e3a453b4e203bd697e96330d',
             'dev_requirement' => false,
         ),
         'getkirby/composer-installer' => array(
@@ -52,7 +52,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'e1c6ae67670deaaf484d96a8e9aca2ba5bbd13ea',
+            'reference' => '2accd40b645a5ab361f3c45805a61b735d9b71b5',
             'dev_requirement' => false,
         ),
         'graham-campbell/result-type' => array(

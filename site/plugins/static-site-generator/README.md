@@ -32,12 +32,13 @@ Alternatively, create a `static-site-generator` folder in `site/plugins`, downlo
 ## What doesn't work
 
 - Custom routes
-- Query parameters (unless processed by javascript)
+- Query parameters (unless processed by JavaScript)
+- Redirections / `die` or `exit` in the code (this also affects the compatibility with some other plugins)
 - Directly opening the html files in the browser with the file protocol (absolute base url `/`)
 
 ## How to use it
 
-### 1) Directly (e.g. from a kirby hook)
+### 1) Directly (e.g. from a Kirby hook)
 
 ```php
 $staticSiteGenerator = new D4L\StaticSite\Generator($kirby, $pathsToCopy = null, $pages = null);

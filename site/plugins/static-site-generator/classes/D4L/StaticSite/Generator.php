@@ -108,6 +108,8 @@ class Generator
 
     protected function _setPageLanguage(Page $page, ?string $languageCode = null)
     {
+        $this->_resetCollections();
+
         $kirby = $this->_kirby;
         $site = $kirby->site();
         $pages = $site->index();
@@ -126,6 +128,12 @@ class Generator
 
         $kirby->cache('pages')->flush();
         $site->visit($page, $languageCode);
+    }
+
+    protected function _resetCollections() {
+        (function() {
+          $this->collections = null;
+        })->bindTo($this->_kirby, 'Kirby\\Cms\\App')($this->_kirby);
     }
 
     protected function _generatePage(Page $page, string $path, string $baseUrl)
